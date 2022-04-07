@@ -1,0 +1,33 @@
+body{
+
+    margin: 0px;
+}
+.nav{
+    border-color: red;
+    border-style: solid;
+}
+
+.nav img{
+
+}
+
+.youtube-logo{
+    width: 90px;
+    padding:10px;
+}
+
+.menu-logo{
+    width: 24px;
+    padding:10px;
+    padding-top:200px;
+}
+.left-section div{
+    display:inline-block;
+   
+    cursor: pointer;
+}
+.exemple2{
+    width: 299px;
+    background: blue;
+    display: inline-block;
+}
