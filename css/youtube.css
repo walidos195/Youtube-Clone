@@ -3,31 +3,20 @@ body{
     margin: 0px;
 }
 .nav{
-    border-color: red;
-    border-style: solid;
     display:flex;
 }
-
-
-.nav img{
-    
-}
-
 
 .left-section{
     display: flex;
     align-items: center;
     margin-left: 10px;
-    border-color: blue;
-    border-style: solid;
     width: 30%;
 }
 .left-section div{
-    display:flex;
     cursor: pointer;
 }
 .youtube-logo{
-    width: 90px;
+    width: 70px;
     padding:10px;
     margin-top: 10px;
 }
@@ -40,10 +29,10 @@ body{
     display: flex;
     align-items: center;
     margin-left: 10px;
-    border-color: blue;
-    border-style: solid;
     width: 40%;
+    
 }
+/**/
 .search{
     display: flex;
     flex-grow: 1;
@@ -86,4 +75,21 @@ body{
     margin-left: 15px;
     margin-right: 10px;
 }
+.right-section{
+    display: flex;
+    margin-left: auto;
+    margin-top: 5px;
 }
+
+.right-section div {
+    width: 36px;
+    padding: 8px;
+}
+.right-section div img{
+    width: 24px;
+}
+.right-section .profile>img{
+    width: 24px;
+    border-radius: 12px; ;
+}
+
