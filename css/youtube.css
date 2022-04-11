@@ -142,6 +142,9 @@ body{
     max-height: 100vh;
     border-top: 0.05px solid rgb(172, 172, 172);
     overflow: scroll;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .videos::-webkit-scrollbar {
@@ -165,12 +168,45 @@ body{
       {
           background-color: #b3b2b2;
       }
+/*========Big Scrren==========*/
+.video{
+    margin: 10px;
+    width: 300px;
 
+}
+/*  calc(100%/var(--ytd-rich-grid-items-per-row) - var(--ytd-rich-grid-item-margin) - 0.01px)  */
+.video img{
+    width :100%;
+  
+}
 
-
-
+.Description{
+    display: flex;
+    margin-top: 11px;
+}
+.Description .icone img{
+    height: 35;
+    width: 35px;
+    border-radius: 12px;
+    margin-right: 14px;
+}
+.title .youtubeur{
+    margin-top: 12px;
+    color: #606060;
+    font-size: 12px;
+}
+.title .view{
+    margin-top: 3px;
+    color: #606060;
+    font-size: 10px;
+}
+.more img{
+    width: 24px;
+    cursor: pointer;
+}
 .menu{
     width: 218px;
+    min-width: 218px;
     display: inline-block;
     vertical-align: top;
     max-height: 100vh;
